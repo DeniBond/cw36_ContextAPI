@@ -6,8 +6,8 @@ const UserStats = (props) => {
         <div className={'user-stats'}>
             <UserAvatar user={props.user}/>
             <div className={'stats'}>
-                <div>Followers:</div>
-                <div>Subscribe::</div>
+                <div>Followers: {props.stats.followers}</div>
+                <div>Subscribe: {props.stats.subscribers}</div>
             </div>
         </div>
     );
