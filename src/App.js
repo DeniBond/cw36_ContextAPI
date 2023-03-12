@@ -24,7 +24,7 @@ class App extends Component {
         return (
             <div className={'app'}>
                 <Nav user={this.state.user}/>
-                <Body/>
+                <Body user={this.state.user}/>
             </div>
         );
     }
